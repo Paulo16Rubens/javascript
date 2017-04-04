@@ -1,0 +1,18 @@
+< Html >
+< Head >
+< Meta  charset = " utf-8 " />
+< Título > exercicio Prático (Tabuada) - Rubens  </ title >
+</ Head >
+< Body >
+< Script >
+Para (i = 1 ; i <= 100 ; i ++ ) {
+Janela . Documento . Write ( ' <table border = "2"> ' );
+Para (j = 1 ; j <= 10 ; j ++ ) {
+Janela . Documento . Write ( " <tr> " );
+Janela . Documento . Escreva ( " <td width = '130'> " + i + " x " + j + " = " , j * i, " </ td> " );
+Janela . Documento . Write ( " </ tr> " );
+}
+Janela . Documento . escrever ( < / mesa > < br > < br > " );
+</ Script>
+</ Body>
+</ Html>
